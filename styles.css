@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #212121;
+}
+
+center {
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    top: 15%;
+    -ms-transform: translateY(-15%);
+    transform: translateY(-15%);
+    text-align: center;
+    font-family: 'JetBrains Mono', monospace;
+    text-align: center;
+    color: whitesmoke;
+}
+
+h1 {
+    font-size: 30px;
+}
+h2 {
+    font-size: 25px;
+}
+
+.main img {
+    margin-top: 30px;
+    height: auto;
+    width: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
+.wtf img{
+    position: absolute;
+    bottom: 18px;
+    height: auto;
+    width: 40px;
+    margin-left: 15px;
+}
+
+.wtf p{
+    margin-bottom: 28px;
+    font-family: 'JetBrains Mono', monospace; 
+    font-weight: 200;
+    color: whitesmoke;
+    text-align: center;
+    padding-left: 63px;
+
+}
