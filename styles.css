@@ -40,11 +40,24 @@ body{
     top: -50%;
     animation: spin 1.5s infinite linear;
 }
+
+@-webkit-keyframes spin{
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+
+@-moz-keyframes spin{
+    100%{
+        transform: rotate(-360deg);
+    }
+}
 @keyframes spin{
     100%{
         transform: rotate(-360deg);
     }
 }
+
 .box:after{
     content: "valkie";
     position: absolute;
