@@ -8,20 +8,45 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 body{
     background-color: #212121;
 }
+
 .box{
+    
     height: 98px;
     width: 175px;
     position: absolute;
     transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
     top: 15%;
     left: 50%;
     border-radius: 5px;
     box-shadow: 0 5px 10px rgba(0,0,0,0.3);
     overflow: hidden;
 }
+
+
+
+
+@-webkit-keyframes spin{
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+
+@-moz-keyframes spin{
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+@keyframes spin{
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+
 .box:before{
     content: "";
     height: 200%;
@@ -43,22 +68,6 @@ body{
     -webkit-animation: spin 1.5s infinite linear;
 }
 
-@-webkit-keyframes spin{
-    100%{
-        transform: rotate(-360deg);
-    }
-}
-
-@-moz-keyframes spin{
-    100%{
-        transform: rotate(-360deg);
-    }
-}
-@keyframes spin{
-    100%{
-        transform: rotate(-360deg);
-    }
-}
 
 .box:after{
     content: "valkie";
@@ -76,9 +85,6 @@ body{
     display: grid;
     place-items: center;
 
-}
-
-.wrapper{
 }
 
 .par{
