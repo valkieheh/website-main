@@ -39,6 +39,8 @@ body{
     left: -50%;
     top: -50%;
     animation: spin 1.5s infinite linear;
+    -moz-animation: spin 1.5s infinite linear;
+    -webkit-animation: spin 1.5s infinite linear;
 }
 
 @-webkit-keyframes spin{
