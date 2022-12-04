@@ -6,20 +6,20 @@
         <title>valkie</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <script src="scripts/script.js"></script>
+
     </head>
     <body>
-        <div class="wrapper">
-            <div class="box">
-
-            </div>
-            <div class="par">
-                <span>website is under constrution</span>
-            </div>
-        </div>
-
-
-        <script src="scripts/jquery.js"></script>
-        <script src="scripts/script.js"></script>
+        <div class="Contact">
+            <h2 id="ContactText">placeholder</h2>
+            <label class="Name-Input">
+                <input maxlength=37 id="NameInput" type="text" required/>
+                <span class="placeholder">Name (optional)</span>
+            </label>
+            <textarea id="InputField" placeholder="Your message here"></textarea>
+            <button onclick="send()" id="SendMessage">Send</button>
+            <h3 id="MessageSent">Message sent!</h3>
+            <h3 id="MessageFailed">Message failed!</h3>
     </body>
 </html>
